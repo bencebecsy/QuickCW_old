@@ -33,7 +33,7 @@ setup(
     version='0.0dev',
     requires=['numba', 'enterprise_extensions', 'numba', 'h5py'],
     packages=['QuickCW'],
-    scripts=[],
+    scripts=['runQuickMCMC.py'],
     license='GPL',
     long_description=open('README.md').read(),
     )
